@@ -1,0 +1,20 @@
+.crosshair {cursor: crosshair;}
+
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Playfair Display', serif;
+
+
+  cursor: crosshair;
+}
