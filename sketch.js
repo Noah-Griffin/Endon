@@ -135,6 +135,10 @@ function mouseWheel() {
 function touchMoved(){
   append(mousePositions, mouseY);
   checkMousePositions();
+  push();
+  fill(255, 0, 0);
+  rect(100, 100, 100, 100);
+  pop();
 }
 
 
