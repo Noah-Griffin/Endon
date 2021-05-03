@@ -7,7 +7,7 @@ var touchStartPosition, moved = 0;
 var mousePositions = [];
 
 function setup() {
-  var cnv = createCanvas(windowWidth, 400);
+  var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
   background(255);
 
