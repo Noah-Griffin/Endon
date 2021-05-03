@@ -132,7 +132,7 @@ function mouseWheel() {
 }
 
 
-function mouseDragged(){
+function touchMoved(){
   append(mousePositions, mouseY);
   checkMousePositions();
 }
@@ -150,7 +150,7 @@ function checkMousePositions(){
 }
 
 
-function mousePressed(){
+function touchStarted(){
   append(mousePositions, touchStartPosition);
   for(i = 0; i < boxes.length; i++){
     if (boxes[i] != null){
