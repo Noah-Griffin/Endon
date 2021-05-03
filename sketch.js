@@ -46,8 +46,8 @@ function draw() {
 function checkBox(){
   if (boxes[narrativeIndex] != null){
     if (boxes[narrativeIndex].pos == 'top'){
-      boxes[narrativeIndex].drawBox(topTextPos + 5, 100);
-      boxes[narrativeIndex].checkMouseOver(topTextPos + 5, 100);
+      boxes[narrativeIndex].drawBox(topTextPos + 5, 25);
+      boxes[narrativeIndex].checkMouseOver(topTextPos + 5, 25);
       return true;
     }
     if (boxes[narrativeIndex].pos == 'bottom'){
