@@ -47,13 +47,15 @@ function checkBox(){
   if (boxes[narrativeIndex] != null){
     if (boxes[narrativeIndex].pos == 'top'){
       boxes[narrativeIndex].drawBox(topTextPos + 5, 25);
-      boxes[narrativeIndex].checkMouseOver(topTextPos + 5, 25);
-      return true;
+      if (boxes[narrativeIndex].checkMouseOver(topTextPos + 5, 25)){
+        return true;
+      }
     }
     if (boxes[narrativeIndex].pos == 'bottom'){
       boxes[narrativeIndex].drawBox(bottomTextPos + 5, 185);
-      boxes[narrativeIndex].checkMouseOver(bottomTextPos + 5, 185);
-      return true;
+      if (boxes[narrativeIndex].checkMouseOver(bottomTextPos + 5, 185)){
+        return true;
+      }
     }
     else{
       return false;
@@ -94,6 +96,7 @@ function checkText(){
       bottomTextPos = -bottomTextWidth;
       topTextPos =  -topTextWidth;
     }
+    
     if (narrativeIndex < 0){
       narrativeIndex = narrative.length;
     }
@@ -121,8 +124,6 @@ function windowResized() {
 
 
 function mouseWheel() {
-  //move the square according to the vertical scroll amount
-
   checkText();
   topTextPos -= event.delta * topTextScroll;
   bottomTextPos -= event.delta * bottomTextScroll;
