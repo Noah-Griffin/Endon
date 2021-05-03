@@ -3,6 +3,8 @@ var narrativeIndex = 0;
 var topTextPos, bottomTextPos, topTextWidth, bottomTextWidth;
 var topTextScroll, bottomTextScroll, topTextInc, bottomTexInc;
 var biro;
+var touchStartPosition, moved = 0;
+var mousePositions = [];
 
 function setup() {
   var cnv = createCanvas(windowWidth, 400);
@@ -96,7 +98,7 @@ function checkText(){
       bottomTextPos = -bottomTextWidth;
       topTextPos =  -topTextWidth;
     }
-    
+
     if (narrativeIndex < 0){
       narrativeIndex = narrative.length;
     }
@@ -130,7 +132,26 @@ function mouseWheel() {
 }
 
 
+function mouseDragged(){
+  append(mousePositions, mouseY);
+  checkMousePositions();
+}
+
+
+function checkMousePositions(){
+  if (mousePositions[mousePositions.length - 1] < mousePositions[mousePositions.length - 2]){
+    topTextPos -= topTextScroll * 20;
+    bottomTextPos -= bottomTextScroll * 20;
+  }
+  if (mousePositions[mousePositions.length - 1] > mousePositions[mousePositions.length - 2]){
+    topTextPos += topTextScroll * 20;
+    bottomTextPos += bottomTextScroll * 20;
+  }
+}
+
+
 function mousePressed(){
+  append(mousePositions, touchStartPosition);
   for(i = 0; i < boxes.length; i++){
     if (boxes[i] != null){
       if (checkBox()){
