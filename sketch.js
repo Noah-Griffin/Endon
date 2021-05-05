@@ -134,33 +134,30 @@ function mouseWheel() {
 
 function touchMoved(){
   append(mousePositions, mouseY);
-  console.log(mouseY);
   checkMousePositions();
 }
 
 
 function checkMousePositions(){
-  console.log("checking mouse");
+  checkText();
   if (mousePositions[mousePositions.length - 1] < mousePositions[mousePositions.length - 2]){
     topTextPos -= topTextScroll * 20;
     bottomTextPos -= bottomTextScroll * 20;
-    console.log("scroll");
   }
   if (mousePositions[mousePositions.length - 1] > mousePositions[mousePositions.length - 2]){
     topTextPos += topTextScroll * 20;
     bottomTextPos += bottomTextScroll * 20;
-    console.log("scroll");
   }
 }
 
 
-// function touchStarted(){
-//   append(mousePositions, touchStartPosition);
-//   for(i = 0; i < boxes.length; i++){
-//     if (boxes[i] != null){
-//       if (checkBox()){
-//         window.open(boxes[i].link);
-//       }
-//     }
-//   }
-// }
+function touchStarted(){
+  append(mousePositions, touchStartPosition);
+  for(i = 0; i < boxes.length; i++){
+    if (boxes[i] != null){
+      if (checkBox()){
+        window.open(boxes[i].link);
+      }
+    }
+  }
+}
