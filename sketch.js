@@ -141,12 +141,12 @@ function touchMoved(){
 function checkMousePositions(){
   checkText();
   if (mousePositions[mousePositions.length - 1] < mousePositions[mousePositions.length - 2]){
-    topTextPos -= topTextScroll * 20;
-    bottomTextPos -= bottomTextScroll * 20;
+    topTextPos -= topTextScroll * 35;
+    bottomTextPos -= bottomTextScroll * 35;
   }
   if (mousePositions[mousePositions.length - 1] > mousePositions[mousePositions.length - 2]){
-    topTextPos += topTextScroll * 20;
-    bottomTextPos += bottomTextScroll * 20;
+    topTextPos += topTextScroll * 35;
+    bottomTextPos += bottomTextScroll * 35;
   }
 }
 
