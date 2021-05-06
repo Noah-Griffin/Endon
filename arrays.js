@@ -23,7 +23,8 @@ var narrative = [
 'top', 'https://www.amazon.co.uk/Amosfun-Lingerie-Policeman-Underwear-Boyfriends/dp/B08253F4N3/ref=sr_1_16?crid=28WXRGV1A3DO7&dchild=1&keywords=sexy+police+outfit&qid=1620296419&sprefix=sexy+police%2Caps%2C156&sr=8-16'],
 
 ['People who wore something that couldn’t be described yet.',
-'Unless following certain threads.'],
+'Unless following certain threads.', 
+'bottom', 'https://www.instagram.com/final_f0rm/'],
 
 ['Rich people.',
 'Who didn’t want u to know it.'],
@@ -67,7 +68,7 @@ var narrative = [
 'It\’s not u it\'s me/u.'],
 
 ['At one point the music stopped and 3 band members got up on stage theremin/trombone/pheromone.',
-'The 3rd_ was definitely the sex appeal.'],
+'The 3rd was definitely the sex appeal.'],
 
 ['They each wore t-shirts that displayed vaguely provocative 4 letter words.',
 'The words need not be spelled out to the **** reader.'],
@@ -82,7 +83,7 @@ var narrative = [
 'He had no authority, contrary to popular belief.'],
 
 ['He preferred the title writer because of the mechanical implications it carried.',
-'less_accountability.'],
+'less<accountability.'],
 
 ['Information was presented to him and he translated it into his writing.',
 'From the outside, it was known that information was lost in translation but he couldn’t help it.'],
