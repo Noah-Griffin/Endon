@@ -23,8 +23,7 @@ var narrative = [
 'top', 'https://www.amazon.co.uk/Amosfun-Lingerie-Policeman-Underwear-Boyfriends/dp/B08253F4N3/ref=sr_1_16?crid=28WXRGV1A3DO7&dchild=1&keywords=sexy+police+outfit&qid=1620296419&sprefix=sexy+police%2Caps%2C156&sr=8-16'],
 
 ['People who wore something that couldn’t be described yet.',
-'Unless following certain threads.', 
-'bottom', 'https://www.instagram.com/final_f0rm/'],
+'Unless following certain threads.'],
 
 ['Rich people.',
 'Who didn’t want u to know it.'],
