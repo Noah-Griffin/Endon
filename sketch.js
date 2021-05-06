@@ -153,11 +153,7 @@ function checkMousePositions(){
 
 function touchStarted(){
   append(mousePositions, touchStartPosition);
-  for(i = 0; i < boxes.length; i++){
-    if (boxes[i] != null){
-      if (checkBox()){
-        window.open(boxes[i].link);
-      }
-    }
+  if (checkBox()){
+    window.open(boxes[narrativeIndex].link);
   }
 }
