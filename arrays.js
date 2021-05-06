@@ -208,7 +208,8 @@ var narrative = [
 'And it’s soul crushing.'],
 
 ['Perhaps we could host an exhibition of ephemeral artworks.',
-'Portable artworks that could exist at any time in any place.'],
+'Portable artworks that could exist at any time in any place.', 
+'top', 'https://www.e-flux.com/architecture/superhumanity/66881/on-snow-dancing/'],
 
 ['Listen, John Cage’s silence is playing.',
 'Don’t say that we could be done for copyright infringement.'],
