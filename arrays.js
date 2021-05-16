@@ -113,7 +113,7 @@ var narrative = [
 
 ['A prescribed intensity to the exact singular moment that 23:59 on the 31st December becomes 00:00',
 '                            ',
-'bottom', 'https://time.is/'],
+'top', 'https://time.is/'],
 
 ['It is the clock that tells the time.',
 'learn_to_tell the time.'],
@@ -124,29 +124,29 @@ var narrative = [
 ['The new clock should have a pretty face.',
 'A stunner ( ͡°❥ ͡°).'],
 
-['Endon\'s trail of thought was quickly interrupted by a small creature like man who lit up Endon\'s nostrils before occupying his other senses',
-'Although abrasive, it was not unpleasant'],
+['Endon\'s trail of thought was quickly interrupted by a small creature like man who lit up Endon\'s nostrils before occupying his other senses.',
+'Although abrasive, it was not unpleasant.'],
 
 ['He started to describe a production company he had once heard of',
 'Although incoherent, his story was a welcome distraction from the surrounding scenery'],
 
 ['A group of invisible people decided to make an invisible film.',
-' Actors and crew members were required to wear tap shoes at all times so that they would not bump into each other.'],
+'Actors and crew members were required to wear tap shoes at all times so that they would not bump into each other.'],
 
- ['Everyone was distinguished by their smell.', 
+['Everyone was distinguished by their smell.',
 'Bloodhound talent spotters.'],
 
-[' The lead actress was picked because of her notably beautiful scent.',
+['The lead actress was picked because of her notably beautiful scent.',
 'It’s notes lay somewhere between citrus oranges and waking up on a good day.'],
 
-[' Special cinemas were designed to screen these films.',
-' Heritage buildings were knocked down or reoccupied.'],
+['Special cinemas were designed to screen these films.',
+'Heritage buildings were knocked down or reoccupied.'],
 
-[' Speakers were mounted 360 degrees around a central audience.',
+['Speakers were mounted 360 degrees around a central audience.',
 'Smells were secreted from special ducts in the ceiling.'],
 
-['The audience were required to shower before visiting. After they left, would carry the many scents of the film around with them.',
-'This allowed the film to leak outside of the cinema. '],
+['The audience were required to shower before visiting. After they left, they would carry the many scents of the film around with them.',
+'This allowed the film to leak outside of the cinema.'],
 
 ['In turn smell gained a new role within society.',
 'Beauty standards found new territory.'],
@@ -154,8 +154,8 @@ var narrative = [
 ['People who passed the audience members on the street were advertised the film nasally.',
 '                            '],
 
-['Horror ',
-'It did not smell sweet. '],
+['Horror',
+'It did not smell sweet.'],
 
 ['Action.',
 'It smelt like metal and sweat.'],
