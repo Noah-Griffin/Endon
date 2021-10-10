@@ -23,7 +23,7 @@ var narrative = [
 
 ['Numerical systems of naming sites are now introduced, allowing for easier recording, mapping, taxing and monitoring by governing bodies.',
 'Uniformed personnel (they liked being told to tell people what to do)',
-'top', 'https://www.amazon.co.uk/Amosfun-Lingerie-Policeman-Underwear-Boyfriends/dp/B08253F4N3/ref=sr_1_16?crid=28WXRGV1A3DO7&dchild=1&keywords=sexy+police+outfit&qid=1620296419&sprefix=sexy+police%2Caps%2C156&sr=8-16'],
+'bottom', 'https://www.amazon.co.uk/Amosfun-Lingerie-Policeman-Underwear-Boyfriends/dp/B08253F4N3/ref=sr_1_16?crid=28WXRGV1A3DO7&dchild=1&keywords=sexy+police+outfit&qid=1620296419&sprefix=sexy+police%2Caps%2C156&sr=8-16'],
 
 ['We see here the adoption of a dominant language by the masses that offers both efficiency and increased manageability. ',
 'People who wore something that couldn’t be described yet.'],
@@ -39,7 +39,7 @@ var narrative = [
 
 ['One example to consider may be the 24 hour clock.',
 'Everyone knew their limits.',
-'top', 'https://www.youtube.com/watch?v=azwXuTIEyto'],
+'bottom', 'https://www.youtube.com/watch?v=azwXuTIEyto'],
 
 ['Fast forward to the rave.',
 'In an events based culture, the idea of not being intoxicated is ridiculous.'],
@@ -49,7 +49,7 @@ var narrative = [
 
 ['I’ve just heard myths.',
 'Then the music started. The dance floor was filled in a gradient from uppers on the right to downers on the left.',
-'top', 'https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'],
+'bottom', 'https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html'],
 
 ['Secret phone lines and locations, peer to peer flyers.',
 'The music matched this arrangement. Ambient effects played at one end, bass and drums at the other. A spectrum of intensity.'],
@@ -62,7 +62,7 @@ var narrative = [
 
 ['When I talk to my dad about it I get excited by the optimism that I can tell he once held.',
 'Locating it wouldn’t have given it anymore significance. And people were too far gone to care.',
-'top', 'https://www.shazam.com/gb'],
+'bottom', 'https://www.shazam.com/gb'],
 
 ['At the same time however, I can’t help but cringe at some of it.',
 'It was tinged with this sickly feeling that it wanted you to like it. Someone should have asked it: ‘how can I love you when you can’t love yourself?’'],
@@ -88,7 +88,7 @@ var narrative = [
 
 ['But in a time where we protest for the right to protest, how do we snap out of this kinky relationship we have with the powers that be?',
 'The world made up of fictionalised measurements but they are usually assigned from above.',
-'bottom', 'https://bills.parliament.uk/bills/2839'],
+'top', 'https://bills.parliament.uk/bills/2839'],
 
 ['We have been completely enveloped by this strict syntax.',
 'Electric cars emulating a noise they don’t produce.'],
